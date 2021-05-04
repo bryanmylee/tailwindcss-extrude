@@ -16,8 +16,6 @@ $ npm i tailwindcss-extrude
 
 ## Usage
 
-`tailwindcss-extrude` provides 
-
 At its core, `tailwindcss-extrude` uses a box shadow and a translate transform to create the illusion of an extrusion. It cannot be used with a regular box shadow or other transforms.
 
 Give an element an extrusion by applying the following classes:
@@ -27,6 +25,20 @@ Give an element an extrusion by applying the following classes:
 * `extrude-y-{depth}`
 
 ### Extending extrude depths
+
+By default, `depth` can be:
+
+```js
+{
+  DEFAULT: '2px', // if no depth is provided, defaults to 2px.
+  0: '0',
+  2: '4px',
+  3: '6px',
+  4: '8px',
+  6: '12px',
+  8: '16px'
+}
+```
 
 This plugin uses the `extrude` key in the Tailwind CSS config file. You can extend the lengths used for extrude depth here.
 
