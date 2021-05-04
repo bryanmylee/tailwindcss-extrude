@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-extrude",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extrude your elements for a retro look!",
   "main": "src/index.js",
   "files": [
