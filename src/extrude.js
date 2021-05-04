@@ -4,7 +4,7 @@ module.exports = (flatColors, flatDepths) => {
       `.extrude-${colorName}`,
       {
         boxShadow: `var(--tw-extrude-x, 0) var(--tw-extrude-y, 0) 0px ${colorValue}`,
-        transform: `translate(calc(var(--tw-extrude-x, 0) * -1), calc(var(--tw-extrude-y, 0) * -1))`
+        transform: `translate(calc(var(--tw-extrude-x, 0px) * -1), calc(var(--tw-extrude-y, 0px) * -1))`
       }
     ]),
     ...flatDepths.map(([depthName, depthValue]) => [
