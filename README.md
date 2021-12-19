@@ -14,6 +14,16 @@ A custom TailwindCSS plugin for an extruded style.
 $ npm i tailwindcss-extrude
 ```
 
+Add the plugin to `tailwind.config.cjs`:
+
+```js
+module.exports = {
+  ...
+  theme: { ... },
+  plugins: [require('tailwindcss-extrude')]
+};
+```
+
 ## Usage
 
 At its core, `tailwindcss-extrude` uses a box shadow and a translate transform to create the illusion of an extrusion. It cannot be used with a regular box shadow or other transforms.
