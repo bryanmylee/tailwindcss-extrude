@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-extrude",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Extrude your elements for a retro look!",
   "main": "src/index.js",
   "files": [
@@ -28,10 +28,10 @@
   },
   "homepage": "https://github.com/bryanmylee/tailwindcss-extrude#readme",
   "peerDependencies": {
-    "tailwindcss": "^2.0.0"
+    "tailwindcss": "x"
   },
   "devDependencies": {
     "standard-version": "^9.0.0",
-    "tailwindcss": "v2.0.0"
+    "tailwindcss": "x"
   }
 }
