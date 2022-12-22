@@ -3,7 +3,7 @@
 [![npm version](http://img.shields.io/npm/v/tailwindcss-extrude.svg)](https://www.npmjs.com/package/tailwindcss-extrude)
 [![npm downloads](https://img.shields.io/npm/dm/tailwindcss-extrude.svg)](https://www.npmjs.com/package/tailwindcss-extrude)
 ![license](https://img.shields.io/npm/l/tailwindcss-extrude)
-![build](https://img.shields.io/github/workflow/status/bryanmylee/tailwindcss-extrude/publish)
+![build](https://img.shields.io/github/actions/workflow/status/bryanmylee/tailwindcss-extrude/publish.yml)
 [![size](https://img.shields.io/bundlephobia/min/tailwindcss-extrude)](https://bundlephobia.com/result?p=tailwindcss-extrude)
 
 A custom TailwindCSS plugin for an extruded style.
